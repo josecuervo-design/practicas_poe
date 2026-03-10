@@ -10,7 +10,7 @@ public class App {
 
         Humano jose=new Humano(nombre,"cuervo",(byte)24);
         jose.hablar(nombre);
-        System.out.println("la edad de " +jose.nombre+" es:"+jose.edad);
+        System.out.println("la edad de " +jose.getNombre()+" es:"+jose.getEdad());
 
 
 
