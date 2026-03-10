@@ -3,15 +3,12 @@ String nombre;
 String apellido;
 byte edad;
 int numeroTelefono;
- 
 
-public Humano (String Nombre,String Apellido){
-
-nombre=Nombre;
-apellido=Apellido;
-};
-
-
+public Humano (String nombre,String apellido,byte edad){
+this.nombre=nombre;
+this.apellido=apellido;
+this.edad=edad;
+}
 
 public void  hablar(String nombre){
 
@@ -19,8 +16,9 @@ public void  hablar(String nombre){
         System.out.println("hola "+nombre);
 
     }else {
-        System.out.println("adios");
+        System.out.println("PROGRAMMING  IS VERY EASY FOR ME BECAUSE IT IS MY NATIVE  LANGUAGE ");
     };
-
+    
 };
 }
+ 
